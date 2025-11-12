@@ -176,7 +176,7 @@ make run
 You may see an error like this (screenshot placeholder below):
 
 ```
-# vsim -c -quiet vopt_tb -t ps
+# vsim -c -quiet vopt_tb -t ps 
 # ** Error: (vopt-13130) Failed to find design unit vopt_tb.
 #         Searched libraries:
 #             work
@@ -235,16 +235,31 @@ This ensures repeated runs won’t fail when the symlinks already exist. (Keep i
 
 ---
 
-## Screenshot placeholder (error & fix)
+## Screenshots
 
-Include your error screenshot here for future reference:
+### ✅ Successful Run
 
-* **Error**: `Failed to find design unit vopt_tb` in QuestaSim transcript
-* **Immediate Fix**: Run from example root
+![Successful Run](https://github.com/buiminhnhut114/pulpissimo/blob/main/run.png)
+
+### ❌ Error Case – Missing vopt_tb
+
+![Error Case](https://github.com/buiminhnhut114/pulpissimo/blob/main/error.png)
+
+If you encounter the error above, fix it quickly by running:
 
 ```bash
 cd ~/pulpissimo/pulp-rt-examples/hello
 make -i run
 ```
+
+---
+
+## Author
+
+**Bùi Minh Nhựt**
+GitHub: [buiminhnhut114](https://github.com/buiminhnhut114)
+Email: [buiminhnhut114@gmail.com](mailto:buiminhnhut114@gmail.com)
+
+---
 
 That’s it. Happy simulating! 🚀
