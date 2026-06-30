@@ -237,11 +237,11 @@ This ensures repeated runs won’t fail when the symlinks already exist. (Keep i
 
 ## Screenshots
 
-### ✅ Successful Run
+### Successful Run
 
 ![Successful Run](https://github.com/buiminhnhut114/pulpissimo/blob/main/run.png)
 
-### ❌ Error Case – Missing vopt_tb
+### Error Case – Missing vopt_tb
 
 ![Error Case](https://github.com/buiminhnhut114/pulpissimo/blob/main/error.png)
 
